@@ -24,6 +24,3 @@ COPY entrypoint.sh /entrypoint.sh
 WORKDIR /src
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["bash"]
-
-#USER ${USER}
-#WORKDIR /home/${USER}/src
